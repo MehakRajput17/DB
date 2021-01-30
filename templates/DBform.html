@@ -1,0 +1,24 @@
+<html>
+    <body background="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAA1BMVEWAgICQdD0xAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC3AcUIAAFkqh/QAAAAAElFTkSuQmCC">
+
+        <center>
+
+        <h1> DIABETES DISEASE PREDICTION </h1><br>
+
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Pregnancies :  <input type="text", name='a', placeholder="enter pregnancy details"> <br><br>
+            Glucose :  <input type="text", name='b', placeholder="enter Glucose"> <br><br>
+            BloodPressure :  <input type="text", name='c', placeholder="enter your BP"> <br><br>
+            SkinThickness :  <input type="text", name='d', placeholder="enter your skin thickness"> <br><br>
+            Insulin :  <input type="text", name='e', placeholder="enter insulin"> <br><br>
+            BMI :  <input type="text", name='f', placeholder="enter BMI"> <br><br>
+            DiabetesPedigreeFunction :  <input type="text", name='g', placeholder="enter Diabets predigree function"> <br><br>
+            Age :  <input type="text", name='h', placeholder="enter your age"> <br><br><br></b>
+            <input type="submit" , value='predict' >
+        </form>
+
+
+    </center>
+
+    </body>
+</html>
